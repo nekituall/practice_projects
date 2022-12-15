@@ -2,7 +2,7 @@ import time
 
 
 def menu():
-    """manin menu func"""
+    """main menu func"""
 
     var = int(input("List of available commands: \n 1.add \n 2.list all "
                     "\n 3.list by date \n 4.list by category \n "
@@ -125,6 +125,6 @@ def case():
         menu()
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     print("Hello user!")
     menu()
