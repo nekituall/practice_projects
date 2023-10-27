@@ -5,7 +5,7 @@ import json
 try:
     # passw = input("enter password: ")
     # ruaChie1ie
-    con = mysql.connector.connect(user="nekituall", password="ruaChie1ie", host="127.0.0.1", port=3309, database='din')
+    con = mysql.connector.connect(user="nekituall", password="pass", host="127.0.0.1", port=3309, database='din')
     # print("connected")
     cur = con.cursor()
     query = """
